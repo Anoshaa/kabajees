@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+ body{ 
+       height: 5000px;
+} 
+
+/* NAVBAR */
+ .bg{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.navbar{
+    padding: 0;
+}
+ .navbar-toggler:focus{
+    box-shadow: none;
+} 
+nav .nav-item a:hover{
+    color:#c5a86a !important
+}
+.nav-link{
+    font-weight:bolder;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+} 
+
+/* VIDEO */
+  .container4{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+} 
+.content{
+ width: 75%;
+text-align: center;
+letter-spacing: 3px;
+}
+@media screen and (max-width:1000px){
+    .content{
+width: 100%
+    }
+}
+.content h1{
+     width: 95%; 
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0%;
+}
+.background-clip{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .background-clip{
+        width:auto;
+        height:100%;
+    }
+}
+.container1{
+    height:615px;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+/* ABOUT US */
+ .section{
+    width: 100%;
+    height: 15%;
+     background-color: #151515;
+     color: white;
+     overflow: hidden;
+}
+.container2{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content1{
+    width: 90%;
+    color: gray;
+    font-size: 20px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width:45%;
+}
+.image-section img{
+    height: auto;
+    width:100%;
+}  
+.content-section .title h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.content-section .content1 p{
+    margin-top: 10px;
+    line-height: 1.7;
+    letter-spacing:normal;
+}
+@media screen and (max-width:890px){
+    .section{
+        height: 30%;
+    }
+    .container2{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: none;
+        width:100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width:100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+/* specialities */
+.container3{
+    text-align: center;
+}
+.com h1{
+    text-align: center;
+    color: white;
+    margin-top: 90px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.com p{
+    text-align: center;
+    color: white;
+    letter-spacing:1px;
+    font-size: 20px;
+}
+.background{
+    overflow: hidden;
+ background:rgba(0, 0, 0, 0.7)url(assets/background\ 1.webp); 
+    height:955px;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.divider{
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height:5px ;
+    background-color: #c5a86a;
+    display: inline-block;
+}
+/* CONTACT */
+.section1{
+        width: 100%;
+        height: 5%;
+         background-color: #151515;
+         color: white;
+         overflow: hidden;
+         text-align: center;
+}
+.content-section1 .title1 p{
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.content-section1 .title1 h1{
+    width: 100%;
+    text-align: center;
+    color: #c5a86a;
+}
+.content-section1 .title1 a{
+color: #c5a86a;
+}
+.my-button{    
+    width: 150px;
+    height: 50px;
+    background-color: #c5a86a;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #c5a86a ;
+}
+.my-button:hover{
+    background-color: #e4ac34;
+}
+/* BANK DISCOUNT */
+
+.background1{
+    overflow: hidden;
+ background:rgba(0, 0, 0, 0.7)url(assets/2nd\ page\ pic\ 6.jpg); 
+    height:955px;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/* GALLERY */
+.content-section1 .title2 h1{
+    width: 100%;
+    text-align: center;
+    color:white;
+    margin-top:50px ;
+    font-size: 50px;
+}
+
+.section2{
+    width: 100%;
+    height: 20%;
+     background-color: #151515;
+     color: white;
+     overflow: hidden;
+     text-align: center;
+}
+/* KABABJEES */
+.background2{
+    overflow: hidden;
+ background:rgba(0, 0, 0, 0.7)url(assets/background3.webp); 
+    height:455px;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: 69%;
+}
+.com1 img{
+    width: 30%;
+    margin-top:90px ;
+    background-position: 69%;
+}
+.com1 h6{
+    text-align: center;
+    color:#c5a86a;
+    font-size: 35px;
+    margin-top: 30px;
+}
+.com1 p{
+    text-align: center;
+    color:white;
+    letter-spacing: 1px;
+    font-size:30px ;
+}
+/* OUR LOCATION */
+.section3{
+    width: 100%;
+    height: 12%;
+     background-color: #151515;
+     color: white;
+     overflow: hidden;
+     text-align: center;
+     justify-content: center;
+}
+ .content-section3 .title3 h1{
+    width: 100%;
+    text-align: center;
+    color:white;
+    margin-top: 40px;
+} 
+.card{
+    width:auto;
+    height: 10rem;
+   
+}
+@media screen and (max-width:850px){
+    .card img{
+        width:auto;
+        height:12rem;
+    }
+    .card{
+        height: 5rem;
+    }
+    .section3{
+        height: 12%;
+
+    }
+}
+@media screen and (max-width:768px){
+    .card img{
+        width:auto;
+        height:auto;
+    }
+    .section3{
+        height: 55%;
+
+    }
+}
+/* Footer */
+.background3{
+    overflow: hidden;
+ background:rgba(0, 0, 0, 0.7)url(assets/background4.webp); 
+    height:345px;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: 69%;
+}
+.col p{
+    color: white;
+    text-align: left;
+}
+.col h4{
+    color: #c5a86a;
+    text-align: left;
+}
+.section1{
+    width: 100%;
+    height: 5%;
+     background-color: #151515;
+     color: white;
+     overflow: hidden;
+     text-align: center;
+}
+.content-section1 .title1 p{
+width:100%;
+text-align: center;
+margin-top: 30px;
+color: gray;
+font-size: 20px;
+text-transform: uppercase;
+}
+.content-section1 .title1 h1{
+width: 100%;
+text-align: center;
+color: #c5a86a;
+}
+.content-section1 .title1 a{
+color: #c5a86a;
+}
